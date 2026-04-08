@@ -62,8 +62,8 @@ with st.container(border=True):
 
         if pred==0:
             st.subheader('LOW RISK OF HEART DISEASE')
-            st.image('heart1.jpeg',width=200)
+            st.image('heart2.jpeg',width=200)
         else:
             st.subheader('HIGH RISK OF HEART DISEASE')
-            st.image('heart2.jpeg',width=200)
+            st.image('heart1.jpeg',width=200)
 
